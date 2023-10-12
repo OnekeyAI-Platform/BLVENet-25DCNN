@@ -1,0 +1,23 @@
+# # 病理组学配置-Part1
+# model_root: D:\20230615-DuHai\part1\models
+ml_models:
+  - LR
+  - SVM
+  - RandomForest
+  - ExtraTrees
+  - LightGBM
+  - MLP
+  - XGBoost
+DISABLE_VIDEO: True
+
+# 影像组学配置-Part2
+radio_dir: D:\20230705-ZhaoFaFa\
+label_file: D:\20230705-ZhaoFaFa\Data_Z_HE\label.csv
+clinic_file: D:\20230705-ZhaoFaFa\Data_Z_HE\Clinic.csv
+dataset_column: group
+task_column:
+  - label1
+  - label2
+  - label3
+font.size: 21
+lines.linewidth: 4.25
